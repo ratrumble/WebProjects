@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+#alex{width:20%;
+float:left;}
+#anita{width:20%;
+float:left;}
+#peter{width:20%;
+float:left;}
+#eric{width:20%;
+float:left;}
+#charles{width:20%;
+float:left;}
+#sam{width:20%;
+float:left;}
+#joe{width:20%;
+float:left;}
+#maria{width:20%;
+float:left;}
+#philip{width:20%;
+float:left;}
+#richard{width:20%;
+float:left;}
+#susan{width:20%;
+float:left;}
+#max{width:20%;
+float:left;}
+#alfred{width:20%;
+float:left;}
+#robert{width:20%;
+float:left;}
+#frans{width:20%;
+float:left;}
+#claire{width:20%;
+float:left;}
+#paul{width:20%;
+float:left;}
+#bill{width:20%;
+float:left;}
+#david{width:20%;
+float:left;}
+#bernard{width:20%;
+float:left;}
+#george{width:20%;
+float:left;}
+#tom{width:20%;
+float:left;}
+#herman{width:20%;
+float:left;}
+#anne{width:20%;
+float:left;}
+#gw{width:20%;
+float:left;}
+.cen{width:100%;
+}
+html{background-color: #7A7A7A}
+#tb0_col0{
+	background-image: url("Guess Who/character images/gw_background_00.jpeg");}
+#tb0_col1{background-color:#D4D4D4;}
+#tb0_col2{
+	background-image: url("Guess Who/character images/guess-who-30-food-1-638.jpg");}
+#character_panel{width: 90%;
+	height: 90%;
+	margin-left: auto;
+    margin-right: auto;}
+#charaterpaneltitle{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+    font-style: normal;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"}
+td{vertical-align: top;
+margin: auto;}
+#reset{width:100%;}
+#play{width:100%;}

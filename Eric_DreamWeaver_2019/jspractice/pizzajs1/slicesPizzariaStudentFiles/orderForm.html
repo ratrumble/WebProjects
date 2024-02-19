@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+	<head>
+		<title>SLICES PIZZERIA</title>
+		<link rel="stylesheet" type="text/css" href="../../../../Eric Liu April 1/jspractice/pizzajs1/slicesPizzariaStudentFiles/css/main.css">
+		<script>	
+		  function calcPizzaPrice(){
+			   var pizzaTypeThin = document.getElementById("thin").checked;
+			  var pizzaTypeThin1 = document.getElementById("pan").checked;
+			  var pizzaTypeThin2 = document.getElementById("deepDish").checked;
+			 var typeCost= 0;
+			   var toppingSausage = document.getElementById("sausage").checked;
+ 			   var toppingPep = document.getElementById("pepperoni").checked;
+			   var toppingOni = document.getElementById("onions").checked;
+			   var toppingMus = document.getElementById("mushrooms").checked;		  
+			 var toppingSpi = document.getElementById("spinach").checked;
+			 var numOfBottle= document.getElementById("numOfWaterBottles").value;
+			var total= 0;
+		var a =0;
+			var total1=0;
+			  if (pizzaTypeThin==true)
+			  {typeCost=10;
+			  }
+			  else if(pizzaTypeThin1==true)
+			  {typeCost=12;
+			  }
+			  else 
+			  {typeCost=14;
+			  }
+			  if (toppingSausage==true)
+			  {a+=1;
+			  }
+			  if (toppingPep==true)
+			  {a+=1;
+			  }
+			  if (toppingOni==true)
+			  {a+=1;
+			  }
+			  if (toppingMus==true)
+			  {a+=1;
+			  }
+			  if (toppingSpi==true)
+			  {a+=1;
+			  }
+			  numOfBottle*=.75;
+			  total1=typeCost+a+numOfBottle;
+			  total=total1;
+			  document.getElementById("totalCost").setAttribute("value", "$ "+ total);
+			
+		  }
+		  
+		  function submitOrder(){
+			  //Create a variable that stores the name of the customer as a String.
+			  var name = document.getElementById("name");
+			  alert("Thank you for your order, "+ name.value);
+		  }
+    	</script>
+	</head>
+
+	<body>
+		<div id="container">
+			
+			<header>
+				<img src="../../../../Eric Liu April 1/jspractice/pizzajs1/slicesPizzariaStudentFiles/images/Logo.png" id="logo" alt="Slices Pizzeria Logo">
+				<nav>
+				  <ul>
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">ORDER FORM</a></li>
+					<li><a href="#">CONTACT</a></li>
+				  </ul>
+				</nav>
+			</header>
+			
+			<section>
+				<img src="../../../../Eric Liu April 1/jspractice/pizzajs1/slicesPizzariaStudentFiles/images/PizzaHeader.jpg" id="pizzaHeader" alt="Pizza Ingredients">
+				<form id="orderForm">
+				<div id="formContainter">
+					<p><h2>What is your name?</h2>
+						<input type="text" id="name">
+					</p>
+					<p><h2>What type of Pizza do you want?</h2>
+						<label><input name="pizzaType" type="radio" id="thin" value="thin" checked="checked">
+					    Thin Crust ($10)</label>
+						<br>
+						<label><input type="radio" name="pizzaType" value="pan" id="pan">
+					    Pan ($12)</label>
+						<br>
+						<label><input type="radio" name="pizzaType" value="deepDish" id="deepDish">
+					    Deep Dish ($14)</label>
+						<br>
+					</p>
+					<p><h2>What toppings do you want? ($1 Each)</h2>
+			            <label><input type="checkbox" name="toppings" value="sausage" id="sausage">Sausage</label><br>
+						<label><input type="checkbox" name="toppings" value="pepperoni" id="pepperoni">Pepperoni</label><br>
+						<label><input type="checkbox" name="toppings" value="onions" id="onions">Onions</label><br>
+						<label><input type="checkbox" name="toppings" value="mushrooms" id="mushrooms">Mushrooms</label><br>
+						<label><input type="checkbox" name="toppings" value="spinach" id="spinach">Spinach</label><br>
+					</p>
+					<p><h2>How many water bottles do you want? ($.75 EAch)</h2>
+					<input type="number" id="numOfWaterBottles" value="0">
+					</p>
+				</div>
+
+				<div id="total">
+					<h1><span id="custName">Your</span> Total:</h1>
+					<input type="text" disabled="true" id="totalCost" value="">
+					<p><input type="button" value="Calculate Total Now" class="btn" onClick="calcPizzaPrice()"></p>
+					<p><input type="reset" value="Submit ORder" class="btn" onClick="submitOrder()"></p>
+				</div>
+				</form>
+
+			</section>
+			
+			<footer>
+				<p>FOR THE LATEST NEWS &amp; UPDATES FROM SLICES PIZZERIA</p>
+				<div class="btn">subscribe</div>
+			</footer>
+		  <div id="copyright">&copy;2018 - SLICES PIZZERIA</div>
+	</div>
+	</body>
+</html>

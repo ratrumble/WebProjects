@@ -1,0 +1,632 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+		<link rel="stylesheet" type="text/css" href="gw.css">
+	<script>//add side instructions
+	function play(){
+		var alex= document.getElementById("alex");
+		var anita= document.getElementById("anita");
+		var peter= document.getElementById("peter");
+		var eric= document.getElementById("eric");
+		var charles= document.getElementById("charles");
+		var sam= document.getElementById("sam");
+		var joe= document.getElementById("joe");
+		var maria= document.getElementById("maria");
+		var philip= document.getElementById("philip");
+		var richard= document.getElementById("richard");
+		var susan= document.getElementById("susan");
+		var max= document.getElementById("max");
+		var alfred= document.getElementById("alfred");
+		var robert= document.getElementById("robert");
+		var frans= document.getElementById("frans");
+		var claire= document.getElementById("claire");
+		var paul= document.getElementById("paul");
+		var bill= document.getElementById("bill");
+		var david= document.getElementById("david");
+		var bernard= document.getElementById("bernard");
+		var george= document.getElementById("george");
+		var tom= document.getElementById("tom");
+		var herman= document.getElementById("herman");
+		var anne= document.getElementById("anne");
+		var gw= document.getElementById("gw");
+		alex.src="Guess Who/character images/alex.png";
+			peter.src="Guess Who/character images/peter.png";
+			eric.src="Guess Who/character images/eric.png";
+			charles.src="Guess Who/character images/charles.png";
+			sam.src="Guess Who/character images/sam.png";
+			joe.src="Guess Who/character images/joe.png";
+			philip.src="Guess Who/character images/philip.png";
+			richard.src="Guess Who/character images/richard.png";
+			max.src="Guess Who/character images/max.png";
+			alfred.src="Guess Who/character images/alfred.png";
+			robert.src="Guess Who/character images/robert.png";
+			frans.src="Guess Who/character images/frans.png";
+			paul.src="Guess Who/character images/paul.png";
+			bill.src="Guess Who/character images/bill.png";
+			david.src="Guess Who/character images/david.png";
+			bernard.src="Guess Who/character images/bernard.png";
+			george.src="Guess Who/character images/george.png";
+			tom.src="Guess Who/character images/tom.png";
+			herman.src="Guess Who/character images/herman.png";
+		anita.src="Guess Who/character images/anita.png";
+			maria.src="Guess Who/character images/maria.png";
+			susan.src="Guess Who/character images/susan.png";
+			claire.src="Guess Who/character images/claire.png";
+			anne.src="Guess Who/character images/anne.png";
+		alert("Please answer the questions with the given options, lowercase");
+		var q1 = prompt("Is the background red or blue?");
+		if (q1=="red"){
+			anita.src="Guess Who/character images/backside.png";
+			eric.src="Guess Who/character images/backside.png";
+			sam.src="Guess Who/character images/backside.png";
+			maria.src="Guess Who/character images/backside.png";
+			richard.src="Guess Who/character images/backside.png";
+			max.src="Guess Who/character images/backside.png";
+			robert.src="Guess Who/character images/backside.png";
+			claire.src="Guess Who/character images/backside.png";
+			bill.src="Guess Who/character images/backside.png";
+			bernard.src="Guess Who/character images/backside.png";
+			tom.src="Guess Who/character images/backside.png";
+			anne.src="Guess Who/character images/backside.png";
+		}
+		else if(q1=="blue"){
+			alex.src="Guess Who/character images/backside.png";
+			peter.src="Guess Who/character images/backside.png";
+			charles.src="Guess Who/character images/backside.png";
+			joe.src="Guess Who/character images/backside.png";
+			philip.src="Guess Who/character images/backside.png";
+			susan.src="Guess Who/character images/backside.png";
+			alfred.src="Guess Who/character images/backside.png";
+			frans.src="Guess Who/character images/backside.png";
+			paul.src="Guess Who/character images/backside.png";
+			david.src="Guess Who/character images/backside.png";
+			george.src="Guess Who/character images/backside.png";
+			herman.src="Guess Who/character images/backside.png";
+		}
+		else{alert("INVALID ANSWER, PLEASE RESTART BY PRESSING THE PLAY BUTTON");return;
+		}
+		var q2= prompt("Is your person a male or female?");
+		if (q2=="male"){
+			anita.src="Guess Who/character images/backside.png";
+			maria.src="Guess Who/character images/backside.png";
+			susan.src="Guess Who/character images/backside.png";
+			claire.src="Guess Who/character images/backside.png";
+			anne.src="Guess Who/character images/backside.png";
+		}
+		else if (q2=="female"){
+			alex.src="Guess Who/character images/backside.png";
+			peter.src="Guess Who/character images/backside.png";
+			eric.src="Guess Who/character images/backside.png";
+			charles.src="Guess Who/character images/backside.png";
+			sam.src="Guess Who/character images/backside.png";
+			joe.src="Guess Who/character images/backside.png";
+			philip.src="Guess Who/character images/backside.png";
+			richard.src="Guess Who/character images/backside.png";
+			max.src="Guess Who/character images/backside.png";
+			alfred.src="Guess Who/character images/backside.png";
+			robert.src="Guess Who/character images/backside.png";
+			frans.src="Guess Who/character images/backside.png";
+			paul.src="Guess Who/character images/backside.png";
+			bill.src="Guess Who/character images/backside.png";
+			david.src="Guess Who/character images/backside.png";
+			bernard.src="Guess Who/character images/backside.png";
+			george.src="Guess Who/character images/backside.png";
+			tom.src="Guess Who/character images/backside.png";
+			herman.src="Guess Who/character images/backside.png";
+		}
+		else{alert("INVALID ANSWER, PLEASE RESTART BY PRESSING THE PLAY BUTTON");
+			 return;
+		}
+		var q3= prompt("Does he/she have nostrils? Answer yes or no");
+        		if (q3=="yes"){
+						eric.src="Guess Who/character images/backside.png";
+			charles.src="Guess Who/character images/backside.png";
+			sam.src="Guess Who/character images/backside.png";
+			joe.src="Guess Who/character images/backside.png";
+			philip.src="Guess Who/character images/backside.png";
+			richard.src="Guess Who/character images/backside.png";
+			max.src="Guess Who/character images/backside.png";
+			alfred.src="Guess Who/character images/backside.png";
+			robert.src="Guess Who/character images/backside.png";
+			frans.src="Guess Who/character images/backside.png";
+			paul.src="Guess Who/character images/backside.png";
+			bill.src="Guess Who/character images/backside.png";
+			david.src="Guess Who/character images/backside.png";
+			bernard.src="Guess Who/character images/backside.png";
+			george.src="Guess Who/character images/backside.png";
+			tom.src="Guess Who/character images/backside.png";
+			herman.src="Guess Who/character images/backside.png";
+			anita.src="Guess Who/character images/backside.png";
+			claire.src="Guess Who/character images/backside.png";
+			anne.src="Guess Who/character images/backside.png";
+		}
+		else if (q3=="no"){
+			alex.src="Guess Who/character images/backside.png";
+			peter.src="Guess Who/character images/backside.png";
+			maria.src="Guess Who/character images/backside.png";
+			susan.src="Guess Who/character images/backside.png";
+		}
+		else if(q3!="yes" && q3!="no"){
+			alert("INVALID ANSWER, PLEASE RESTART BY PRESSING THE PLAY BUTTON");return;
+		}
+		var q4= prompt("Is their eye color blue, green, or brown?");
+		if (q4=="green"){
+			peter.src="Guess Who/character images/backside.png";
+			eric.src="Guess Who/character images/backside.png";
+			sam.src="Guess Who/character images/backside.png";
+			alfred.src="Guess Who/character images/backside.png";
+			robert.src="Guess Who/character images/backside.png";
+			paul.src="Guess Who/character images/backside.png";
+			bill.src="Guess Who/character images/backside.png";
+			david.src="Guess Who/character images/backside.png";
+			bernard.src="Guess Who/character images/backside.png";
+			george.src="Guess Who/character images/backside.png";
+			tom.src="Guess Who/character images/backside.png";
+			herman.src="Guess Who/character images/backside.png";
+			anita.src="Guess Who/character images/backside.png";
+			maria.src="Guess Who/character images/backside.png";
+			susan.src="Guess Who/character images/backside.png";
+			claire.src="Guess Who/character images/backside.png";
+			anne.src="Guess Who/character images/backside.png";
+			philip.src="Guess Who/character images/backside.png";
+			richard.src="Guess Who/character images/backside.png";
+		}
+		else if (q4=="brown"){
+			alex.src="Guess Who/character images/backside.png";
+			alfred.src="Guess Who/character images/backside.png";
+			robert.src="Guess Who/character images/backside.png";
+			tom.src="Guess Who/character images/backside.png";
+			anita.src="Guess Who/character images/backside.png";
+			max.src="Guess Who/character images/backside.png";
+			frans.src="Guess Who/character images/backside.png";
+			joe.src="Guess Who/character images/backside.png";
+			peter.src="Guess Who/character images/backside.png";
+			charles.src="Guess Who/character images/backside.png";
+		}
+		else if (q4=="blue"){
+			alex.src="Guess Who/character images/backside.png";
+			eric.src="Guess Who/character images/backside.png";
+			charles.src="Guess Who/character images/backside.png";
+			sam.src="Guess Who/character images/backside.png";
+			joe.src="Guess Who/character images/backside.png";
+			philip.src="Guess Who/character images/backside.png";
+			richard.src="Guess Who/character images/backside.png";
+			max.src="Guess Who/character images/backside.png";
+			alfred.src="Guess Who/character images/backside.png";
+			frans.src="Guess Who/character images/backside.png";
+			paul.src="Guess Who/character images/backside.png";
+			bill.src="Guess Who/character images/backside.png";
+			david.src="Guess Who/character images/backside.png";
+			bernard.src="Guess Who/character images/backside.png";
+			george.src="Guess Who/character images/backside.png";
+			herman.src="Guess Who/character images/backside.png";
+	
+		}
+		else{
+			alert("INVALID ANSWER, PLEASE RESTART BY PRESSING THE PLAY BUTTON");return;
+		}
+		var q5= prompt("Is your person wearing glasses? Answer yes or no");
+        		if (q5=="yes"){
+			alex.src="Guess Who/character images/backside.png";
+			peter.src="Guess Who/character images/backside.png";
+			eric.src="Guess Who/character images/backside.png";
+			charles.src="Guess Who/character images/backside.png";
+			philip.src="Guess Who/character images/backside.png";
+			richard.src="Guess Who/character images/backside.png";
+			max.src="Guess Who/character images/backside.png";
+			alfred.src="Guess Who/character images/backside.png";
+			robert.src="Guess Who/character images/backside.png";
+			frans.src="Guess Who/character images/backside.png";
+			bill.src="Guess Who/character images/backside.png";
+			david.src="Guess Who/character images/backside.png";
+			bernard.src="Guess Who/character images/backside.png";
+			george.src="Guess Who/character images/backside.png";
+			herman.src="Guess Who/character images/backside.png";
+			anita.src="Guess Who/character images/backside.png";
+			maria.src="Guess Who/character images/backside.png";
+			susan.src="Guess Who/character images/backside.png";
+			anne.src="Guess Who/character images/backside.png";
+		}
+		else if (q5=="no"){
+			sam.src="Guess Who/character images/backside.png";
+			joe.src="Guess Who/character images/backside.png";
+			claire.src="Guess Who/character images/backside.png";
+			paul.src="Guess Who/character images/backside.png";
+			tom.src="Guess Who/character images/backside.png";
+		}
+		else{
+			alert("INVALID ANSWER, PLEASE RESTART BY PRESSING THE PLAY BUTTON");return;
+		}
+		var q6= prompt("Does your person have pink cheeks? Answer yes or no");
+		if (q6=="yes")
+			{
+				alex.src="Guess Who/character images/backside.png";
+			peter.src="Guess Who/character images/backside.png";
+			eric.src="Guess Who/character images/backside.png";
+			charles.src="Guess Who/character images/backside.png";
+			sam.src="Guess Who/character images/backside.png";
+			joe.src="Guess Who/character images/backside.png";
+			richard.src="Guess Who/character images/backside.png";
+			max.src="Guess Who/character images/backside.png";
+			alfred.src="Guess Who/character images/backside.png";
+			frans.src="Guess Who/character images/backside.png";
+			paul.src="Guess Who/character images/backside.png";
+			david.src="Guess Who/character images/backside.png";
+			bernard.src="Guess Who/character images/backside.png";
+			george.src="Guess Who/character images/backside.png";
+			tom.src="Guess Who/character images/backside.png";
+			herman.src="Guess Who/character images/backside.png";
+			maria.src="Guess Who/character images/backside.png";
+			claire.src="Guess Who/character images/backside.png";
+			anne.src="Guess Who/character images/backside.png";
+			}
+		else if (q6=="no"){
+		anita.src="Guess Who/character images/backside.png";
+		philip.src="Guess Who/character images/backside.png";
+		susan.src="Guess Who/character images/backside.png";
+		robert.src="Guess Who/character images/backside.png";
+		bill.src="Guess Who/character images/backside.png";
+		}
+		else{
+			alert("INVALID ANSWER, PLEASE RESTART BY PRESSING THE PLAY BUTTON");return;
+		}
+		var q7= prompt("Does your person have pink lips? Answer yes or no");
+		var q8= prompt("Is your person smiling? Answer yes or no");
+		if (q7=="yes"&&q8=="yes"){
+			maria.src="Guess Who/character images/backside.png";
+			susan.src="Guess Who/character images/backside.png";
+			alfred.src="Guess Who/character images/backside.png";
+			robert.src="Guess Who/character images/backside.png";
+			bernard.src="Guess Who/character images/backside.png";		
+			george.src="Guess Who/character images/backside.png";
+			anne.src="Guess Who/character images/backside.png";
+			claire.src="Guess Who/character images/backside.png";
+		}
+		else if (q7=="yes"&&q8=="no"){
+			anne.src="Guess Who/character images/backside.png";
+			claire.src="Guess Who/character images/backside.png";
+			susan.src="Guess Who/character images/backside.png";
+			maria.src="Guess Who/character images/backside.png";
+			
+			alex.src="Guess Who/character images/backside.png";
+			peter.src="Guess Who/character images/backside.png";
+			eric.src="Guess Who/character images/backside.png";
+			charles.src="Guess Who/character images/backside.png";
+			sam.src="Guess Who/character images/backside.png";
+			joe.src="Guess Who/character images/backside.png";
+			philip.src="Guess Who/character images/backside.png";
+			richard.src="Guess Who/character images/backside.png";
+			max.src="Guess Who/character images/backside.png";
+			frans.src="Guess Who/character images/backside.png";
+			paul.src="Guess Who/character images/backside.png";
+			bill.src="Guess Who/character images/backside.png";
+			david.src="Guess Who/character images/backside.png";
+			tom.src="Guess Who/character images/backside.png";
+			herman.src="Guess Who/character images/backside.png";
+		}
+		else if (q7=="no"&&q8=="yes"){
+			alex.src="Guess Who/character images/backside.png";
+			peter.src="Guess Who/character images/backside.png";
+			eric.src="Guess Who/character images/backside.png";
+			charles.src="Guess Who/character images/backside.png";
+			sam.src="Guess Who/character images/backside.png";
+			joe.src="Guess Who/character images/backside.png";
+			philip.src="Guess Who/character images/backside.png";
+			richard.src="Guess Who/character images/backside.png";
+			max.src="Guess Who/character images/backside.png";
+			alfred.src="Guess Who/character images/backside.png";
+			robert.src="Guess Who/character images/backside.png";
+			frans.src="Guess Who/character images/backside.png";
+			paul.src="Guess Who/character images/backside.png";
+			bill.src="Guess Who/character images/backside.png";
+			david.src="Guess Who/character images/backside.png";
+			bernard.src="Guess Who/character images/backside.png";
+			george.src="Guess Who/character images/backside.png";
+			tom.src="Guess Who/character images/backside.png";
+			herman.src="Guess Who/character images/backside.png";
+			anita.src="Guess Who/character images/backside.png";
+			anne.src="Guess Who/character images/backside.png";
+		}
+		else if (q7=="no"&&q8=="no"){
+			alex.src="Guess Who/character images/backside.png";
+			peter.src="Guess Who/character images/backside.png";
+			eric.src="Guess Who/character images/backside.png";
+			charles.src="Guess Who/character images/backside.png";
+			sam.src="Guess Who/character images/backside.png";
+			joe.src="Guess Who/character images/backside.png";
+			philip.src="Guess Who/character images/backside.png";
+			richard.src="Guess Who/character images/backside.png";
+			max.src="Guess Who/character images/backside.png";
+			alfred.src="Guess Who/character images/backside.png";
+			robert.src="Guess Who/character images/backside.png";
+			frans.src="Guess Who/character images/backside.png";
+			paul.src="Guess Who/character images/backside.png";
+			bill.src="Guess Who/character images/backside.png";
+			david.src="Guess Who/character images/backside.png";
+			bernard.src="Guess Who/character images/backside.png";
+			george.src="Guess Who/character images/backside.png";
+			tom.src="Guess Who/character images/backside.png";
+			herman.src="Guess Who/character images/backside.png";
+			anita.src="Guess Who/character images/backside.png";
+			maria.src="Guess Who/character images/backside.png";
+			susan.src="Guess Who/character images/backside.png";
+			claire.src="Guess Who/character images/backside.png";
+		}
+		else{alert("INVALID ANSWER, PLEASE RESTART BY PRESSING THE PLAY BUTTON");return;
+		}
+	
+		var q9= prompt("Is your person wearing a hat? Answer yes or no. You may use full caps or full lowercase")
+			if (q9=="yes"||q9=="YES"){
+				alex.src="Guess Who/character images/backside.png";
+				peter.src="Guess Who/character images/backside.png";
+				charles.src="Guess Who/character images/backside.png";
+				sam.src="Guess Who/character images/backside.png";
+				joe.src="Guess Who/character images/backside.png";
+				philip.src="Guess Who/character images/backside.png";
+				richard.src="Guess Who/character images/backside.png";
+				max.src="Guess Who/character images/backside.png";
+				alfred.src="Guess Who/character images/backside.png";
+				robert.src="Guess Who/character images/backside.png";
+				frans.src="Guess Who/character images/backside.png";
+				paul.src="Guess Who/character images/backside.png";
+				bill.src="Guess Who/character images/backside.png";
+				david.src="Guess Who/character images/backside.png";
+				tom.src="Guess Who/character images/backside.png";
+				herman.src="Guess Who/character images/backside.png";
+				anita.src="Guess Who/character images/backside.png";
+				susan.src="Guess Who/character images/backside.png";
+				anne.src="Guess Who/character images/backside.png";
+			}
+			else if (q9=="no"||q9=="NO"){
+				eric.src="Guess Who/character images/backside.png";
+				maria.src="Guess Who/character images/backside.png";
+				claire.src="Guess Who/character images/backside.png";
+				bernard.src="Guess Who/character images/backside.png";
+				george.src="Guess Who/character images/backside.png";
+			}
+			else{alert("INVALID ANSWER, PLEASE RESTART BY PRESSING THE PLAY BUTTON");return;
+			}
+		var q10=prompt("Finally, what color is your person's hair? Answer with black, orange, white, blonde, or brown")
+			if (q10=="black"){
+			peter.src="Guess Who/character images/backside.png";
+			eric.src="Guess Who/character images/backside.png";
+			charles.src="Guess Who/character images/backside.png";
+			sam.src="Guess Who/character images/backside.png";
+			joe.src="Guess Who/character images/backside.png";
+			richard.src="Guess Who/character images/backside.png";
+			max.src="Guess Who/character images/backside.png";
+			alfred.src="Guess Who/character images/backside.png";
+			robert.src="Guess Who/character images/backside.png";
+			frans.src="Guess Who/character images/backside.png";
+			paul.src="Guess Who/character images/backside.png";
+			bill.src="Guess Who/character images/backside.png";
+			david.src="Guess Who/character images/backside.png";
+			bernard.src="Guess Who/character images/backside.png";
+			george.src="Guess Who/character images/backside.png";
+			herman.src="Guess Who/character images/backside.png";
+			anita.src="Guess Who/character images/backside.png";
+			maria.src="Guess Who/character images/backside.png";
+			susan.src="Guess Who/character images/backside.png";
+			claire.src="Guess Who/character images/backside.png";
+			}
+		else if(q10=="orange"){
+			alex.src="Guess Who/character images/backside.png";
+			peter.src="Guess Who/character images/backside.png";
+			eric.src="Guess Who/character images/backside.png";
+			charles.src="Guess Who/character images/backside.png";
+			sam.src="Guess Who/character images/backside.png";
+			joe.src="Guess Who/character images/backside.png";
+			philip.src="Guess Who/character images/backside.png";
+			richard.src="Guess Who/character images/backside.png";
+			max.src="Guess Who/character images/backside.png";
+			robert.src="Guess Who/character images/backside.png";
+			paul.src="Guess Who/character images/backside.png";
+			david.src="Guess Who/character images/backside.png";
+			bernard.src="Guess Who/character images/backside.png";
+			george.src="Guess Who/character images/backside.png";
+			tom.src="Guess Who/character images/backside.png";
+			anita.src="Guess Who/character images/backside.png";
+			maria.src="Guess Who/character images/backside.png";
+			susan.src="Guess Who/character images/backside.png";
+			anne.src="Guess Who/character images/backside.png";
+		}
+		else if(q10=="white"){
+			alex.src="Guess Who/character images/backside.png";
+			eric.src="Guess Who/character images/backside.png";
+			charles.src="Guess Who/character images/backside.png";
+			joe.src="Guess Who/character images/backside.png";
+			philip.src="Guess Who/character images/backside.png";
+			richard.src="Guess Who/character images/backside.png";
+			max.src="Guess Who/character images/backside.png";
+			alfred.src="Guess Who/character images/backside.png";
+			robert.src="Guess Who/character images/backside.png";
+			frans.src="Guess Who/character images/backside.png";
+			bill.src="Guess Who/character images/backside.png";
+			david.src="Guess Who/character images/backside.png";
+			bernard.src="Guess Who/character images/backside.png";
+			tom.src="Guess Who/character images/backside.png";
+			herman.src="Guess Who/character images/backside.png";
+			anita.src="Guess Who/character images/backside.png";
+			maria.src="Guess Who/character images/backside.png";
+			claire.src="Guess Who/character images/backside.png";
+			anne.src="Guess Who/character images/backside.png";
+		}
+		else if(q10=="blonde"){
+			alex.src="Guess Who/character images/backside.png";
+			peter.src="Guess Who/character images/backside.png";
+			sam.src="Guess Who/character images/backside.png";
+			philip.src="Guess Who/character images/backside.png";
+			richard.src="Guess Who/character images/backside.png";
+			max.src="Guess Who/character images/backside.png";
+			alfred.src="Guess Who/character images/backside.png";
+			robert.src="Guess Who/character images/backside.png";
+			frans.src="Guess Who/character images/backside.png";
+			paul.src="Guess Who/character images/backside.png";
+			bill.src="Guess Who/character images/backside.png";
+			bernard.src="Guess Who/character images/backside.png";
+			george.src="Guess Who/character images/backside.png";
+			tom.src="Guess Who/character images/backside.png";
+			herman.src="Guess Who/character images/backside.png";
+			maria.src="Guess Who/character images/backside.png";
+			susan.src="Guess Who/character images/backside.png";
+			claire.src="Guess Who/character images/backside.png";
+			anne.src="Guess Who/character images/backside.png";
+		}
+		else if(q10=="brown"){
+			alex.src="Guess Who/character images/backside.png";
+			peter.src="Guess Who/character images/backside.png";
+			eric.src="Guess Who/character images/backside.png";
+			charles.src="Guess Who/character images/backside.png";
+			sam.src="Guess Who/character images/backside.png";
+			joe.src="Guess Who/character images/backside.png";
+			philip.src="Guess Who/character images/backside.png";
+			alfred.src="Guess Who/character images/backside.png";
+			frans.src="Guess Who/character images/backside.png";
+			paul.src="Guess Who/character images/backside.png";
+			bill.src="Guess Who/character images/backside.png";
+			david.src="Guess Who/character images/backside.png";
+			george.src="Guess Who/character images/backside.png";
+			tom.src="Guess Who/character images/backside.png";
+			herman.src="Guess Who/character images/backside.png";
+			anita.src="Guess Who/character images/backside.png";
+			susan.src="Guess Who/character images/backside.png";
+			claire.src="Guess Who/character images/backside.png";
+			anne.src="Guess Who/character images/backside.png";
+		}
+		else{alert("INVALID ANSWER, PLEASE RESTART BY PRESSING THE PLAY BUTTON");
+			 return;}
+		alert("Thank you for the answers, here is the person you were looking for")
+	}
+		function reset(){
+			alex.src="Guess Who/character images/alex.png";
+			peter.src="Guess Who/character images/peter.png";
+			eric.src="Guess Who/character images/eric.png";
+			charles.src="Guess Who/character images/charles.png";
+			sam.src="Guess Who/character images/sam.png";
+			joe.src="Guess Who/character images/joe.png";
+			philip.src="Guess Who/character images/philip.png";
+			richard.src="Guess Who/character images/richard.png";
+			max.src="Guess Who/character images/max.png";
+			alfred.src="Guess Who/character images/alfred.png";
+			robert.src="Guess Who/character images/robert.png";
+			frans.src="Guess Who/character images/frans.png";
+			paul.src="Guess Who/character images/paul.png";
+			bill.src="Guess Who/character images/bill.png";
+			david.src="Guess Who/character images/david.png";
+			bernard.src="Guess Who/character images/bernard.png";
+			george.src="Guess Who/character images/george.png";
+			tom.src="Guess Who/character images/tom.png";
+			herman.src="Guess Who/character images/herman.png";
+		anita.src="Guess Who/character images/anita.png";
+			maria.src="Guess Who/character images/maria.png";
+			susan.src="Guess Who/character images/susan.png";
+			claire.src="Guess Who/character images/claire.png";
+			anne.src="Guess Who/character images/anne.png";
+		}
+	
+		
+	</script>
+</head>
+
+<body>
+<table width="100%" border="1">
+  <tbody>
+    <tr>
+      <td width="25%" id="tb0_col0">&nbsp;</td>
+      <td width="50%" id="tb0_col1"><div id="charaterpaneltitle"> Answer Questions And the computer will identify character for you</div>
+		<center id="character_panel">
+        <div class="cen">
+          <center>
+            <img src="Guess Who/character images/alex.png" height="150" alt="alex" id="alex">
+          </center>
+          <center>
+            <img src="Guess Who/character images/anita.png" height="150" alt="anita" id="anita">
+          </center>
+          <center>
+            <img src="Guess Who/character images/peter.png" height="150" alt="peter" id="peter">
+          </center>
+          <center>
+            <img src="Guess Who/character images/eric.png" height="150" alt="eric" id="eric">
+          </center>
+          <center>
+            <img src="Guess Who/character images/charles.png" height="150" alt="charles"  id="charles">
+          </center>
+          <center>
+            <img src="Guess Who/character images/sam.png" height="150" alt="sam" id="sam">
+          </center>
+          <center>
+            <img src="Guess Who/character images/joe.png" height="150" alt="joe"  id="joe">
+          </center>
+          <center>
+            <img src="Guess Who/character images/maria.png" height="150" alt="maria" id="maria">
+          </center>
+          <center>
+            <img src="Guess Who/character images/philip.png" height="150" alt="philip" id="philip">
+          </center>
+          <center>
+            <img src="Guess Who/character images/richard.png" height="150" alt="richard" id="richard">
+          </center>
+          <center>
+            <img src="Guess Who/character images/susan.png" height="150" alt="susan" id="susan">
+          </center>
+          <center>
+            <img src="Guess Who/character images/max.png" height="150" alt="max" id="max">
+          </center>
+          <center>
+            <img src="Guess Who/character images/alfred.png" height="150" alt="alfred" id="alfred">
+          </center>
+          <center>
+            <img src="Guess Who/character images/robert.png" height="150" alt="robert" id="robert">
+          </center>
+          <center>
+            <img src="Guess Who/character images/frans.png" height="150" alt="frans" id="frans">
+          </center>
+          <center>
+            <img src="Guess Who/character images/claire.png" height="150" alt="claire" id="claire">
+          </center>
+          <center>
+            <img src="Guess Who/character images/paul.png" height="150" alt="paul" id="paul">
+          </center>
+          <center>
+            <img src="Guess Who/character images/bill.png" height="150" alt="bill" id="bill">
+          </center>
+          <center>
+            <img src="Guess Who/character images/david.png" height="150" alt="david" id="david">
+          </center>
+          <center>
+            <img src="Guess Who/character images/bernard.png" height="150" alt="bernard" id="bernard">
+          </center>
+          <center>
+            <img src="Guess Who/character images/george.png" height="150" alt="george" id="george">
+          </center>
+          <center>
+            <img src="Guess Who/character images/tom.png" height="150" alt="tom" id="tom">
+          </center>
+          <center>
+            <img src="Guess Who/character images/herman.png" height="150" alt="herman" id="herman">
+          </center>
+          <center>
+            <img src="Guess Who/character images/anne.png" height="150" alt="anne" id="anne">
+          </center>
+          <center>
+            <img src="Guess Who/character images/guesswho.png" height="150" alt="gw" id="gw">
+          </center>
+        </div>
+      </center>
+		</td>
+      <td width="25%" id="tb0_col2">
+			  <img src="Guess Who/character images/reset.png" alt="play" type="button" id="reset" onClick="reset()">
+			  <img src="Guess Who/character images/play.gif" alt="play" type="button" id="play" onClick="play()">
+		</td>
+    </tr>
+  </tbody>
+</table>
+<table width="100%" border="1">
+  <tbody>
+    <tr> </tr>
+  </tbody>
+</table>
+</body>
+</html>

@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+#header{font:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+font-size: 48px;
+color:#65e09f}
+#shark{width:30%;
+height: 100px;}
+body{background-image: url(SITEPICS/bg.png);
+background-repeat: no-repeat;
+background-size:cover;}
+#th{
+height: 800px;
+background-image:url(SITEPICS/sea.jpg);
+background-repeat:no-repeat;
+background-size:cover;}
+#hbox1{width:20%;
+float: left;}
+#hbox2{width:20%;
+float: left;}
+#hbox3{width:20%;
+float: left;}
+#hbox4{width:20%;
+float: left;}
+#hbox5{width:20%;
+float: left;}
+#bbox1{width:60%;
+	height: 400px;
+background-image: linear-gradient(to bottom left, #521d1d 30%, #ab730e);}
+#bbox2{width:60%;
+	height: 400px;
+background-image: linear-gradient(to bottom left, #521d1d 30%, #ab730e)}
+#bbox3{width:60%;
+	height:400px;
+background-image: linear-gradient(to bottom, #521d1d 30%, #ab730e)}
+#bbox4{width:60%;
+	height:400px;
+background-image: linear-gradient(to bottom right, #521d1d 30%, #ab730e)}
+#bbox5{width:60%;
+	height:400px;
+background-image: linear-gradient(to bottom right, #521d1d 30%, #ab730e)}
+#bbbox1{width:60%;
+background-color:black;
+height:140px;
+	position:relative;
+top: 40px;}
+#bbbox2{width:60%;
+background-color:black;
+height:140px;
+	position:relative;
+top: 40px;}
+#bbbox3{width:60%;
+background-color:black;
+height:140px;
+	position:relative;
+top: 40px;}
+#bbbox4{width:60%;
+background-color:black;
+height:140px;
+	position:relative;
+top: 40px;}
+#bbbox5{width:60%;
+background-color:black;
+height:140px;
+	position:relative;
+top: 40px;}
+#blbox1{width:80%;
+background-image: linear-gradient(to bottom left, #22ddd1 30%, #1180d3);
+height:100px;
+position:relative;
+top: 20px;}
+#blbox2{width:80%;
+background-image: linear-gradient(to bottom left, #22ddd1 30%, #1180d3);
+height:100px;
+position:relative;
+top: 20px;}
+#blbox3{width:80%;
+background-image: linear-gradient(to bottom, #22ddd1 30%, #1180d3);
+height:100px;
+position:relative;
+top: 20px;}
+#blbox4{width:80%;
+background-image: linear-gradient(to bottom right, #22ddd1 30%, #1180d3);
+height:100px;
+position:relative;
+top: 20px;}
+#blbox5{width:80%;
+background-image: linear-gradient(to bottom right, #22ddd1 30%, #1180d3);
+height:100px;
+position:relative;
+top: 20px;}
+#t1{position:relative;
+top: 35px;}
+#t2{position:relative;
+top: 35px;}
+#t3{position:relative;
+top: 35px;}
+#t4{position:relative;
+top: 35px;}
+#t5{position:relative;
+top: 35px;}
+#bar{position:relative;
+bottom: 1300px;}
+#cart{position:relative;
+left: 1800px;
+bottom:1600px;}

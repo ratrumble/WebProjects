@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+#head{width:20%;
+float:left;
+font-size:40px;
+color:#830606;
+background-image: linear-gradient(to left, #364730 30%, #d06614);
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+}
+	
+
+#sc1{float:left;
+
+	width:12%;
+}
+#sc2{float:left;
+
+	width:13%;
+}
+#sc3{float:left;
+
+	width:13%;
+}
+#sc4{float:left;
+
+	width:13%;
+}
+#sc5{float:left;
+
+	width:13%;
+}
+#pc{width:70%;
+position:relative;
+left:670px;}
+#p1{width:14%;
+;color:#830606;
+}
+#p2{width:14%;
+color:#830606;
+}
+#p3{width:14%;
+color:#830606;
+}
+#p4{width:14%;
+color:#830606;
+}
+#p5{width:14%;
+color:#830606;
+}
+#coin{width:20%;
+}
+#cart{width:20%;
+position:relative;
+	left:240px;
+	bottom:200px;
+}
+#sbar{float:right;
+position:relative;
+bottom:400px;}
+#b{font-size:50px;
+	height:200px;
+	color:#830606;
+}
+#con{width:50%;
+	float:left;
+	color:#830606;
+}
+#tp{width:50%;color:#830606;
+}
+body{background: linear-gradient(to bottom, #346355 30%, #000000)center center fixed}

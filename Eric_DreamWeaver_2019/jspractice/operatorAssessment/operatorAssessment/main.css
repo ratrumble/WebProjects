@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* CSS Document */
+			body{
+				background-color: #120e0d;
+				font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+			}
+			#main{
+				background-image: url("crystalBall.jpg");
+				width: 1024px;
+				height: 738px;
+				margin-left: auto;
+				margin-right: auto;
+				padding-top: 100px;
+			}
+			#form{
+				width: 300px;
+				height: 190px;
+				margin-right: auto;
+				margin-left: auto;
+				background-color: #b6e8ff;
+				opacity: .85;
+				box-shadow: 0px 0px 10px 10px #b6e8ff;
+				padding: 10px;
+				color: darkblue;
+				text-align: center;
+			}
+			#submitBtn{
+				width: 75px;
+				height: 30px;
+				background-color: darkblue;
+				color: aliceblue;
+				float: clear;
+				margin-top: 20px;
+			}
+			#usersCurrentNum{
+				width: 140px;
+				height: 32px;
+				margin-left: 10px;
+				background-color: darkblue;
+				color:aliceblue;
+				padding-top:13px;
+				text-align: center;
+				float: left;
+			}
+			#messageToUser{
+				float: left;
+			}

@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+body{background-image:url(SITEPICS/gsea.jpg);
+background-repeat: no-repeat;
+background-size:cover;}
+#head{color:#fe9292;
+font-size:30px;}
+#f1{width:33%;
+float:left;}
+#flr{width:33%;
+float:left;}
+#f2{width:33%;
+float:left;}
+#f3{width:33%;
+float:left;}
+#f4{width:33%;
+float:left;}
+#f5{width:33%;
+float:left;}
+#P1{position:relative;
+bottom:95px;
+font:italic;}
+#P2{position:relative;
+bottom:95px;
+font:italic;}
+#P3{position:relative;
+bottom:95px;
+font:italic;}
+#P4{position:relative;
+bottom:95px;
+font:italic;}
+#P5{position:relative;
+bottom:95px;
+font:italic;}
+#bar{position:relative;
+bottom:720px;}
+#cart{position:relative;
+left: 1900px;
+bottom: 1020px;}

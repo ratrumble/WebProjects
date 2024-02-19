@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Operators Assessment</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+	</head>
+
+	<body>
+		<div id="main">
+          <div id="form">
+				<p><label>Your Name:</label>
+					<input type="text" id="userNameTxtBx" size="25"></p>
+				<p><label>Pick a number, 1 to 1000:</label>
+					<input type="text" id="userNumTxtBx" size="8"></p>
+			  	<p><textarea cols="20" rows="3" readonly="readonly" id="messageToUser" placeholder="Tell me your name and choose a number. Press Next"></textarea>
+			  	 	<div id="usersCurrentNum">Your Number</div></p>
+			  	<p><input id="submitBtn" type="button" onClick="countClicks()" value="Next"></p>
+			</div>
+		</div>
+		
+		<script>
+			var numOfClicks= 0;
+			var currentnum;
+			
+
+			function mathTrick(numClck){
+				var message="";
+				
+				
+				
+				var userName = document.getElementById('userNameTxtBx').value;
+				var userPickedNum = document.getElementById('userNumTxtBx').value;
+								
+				if (numClck == 1){
+					message="Thank you, "+ userName + ". I have your number, now let's do some math. Click Next.";
+				currentnum=userPickedNum;
+					alert(message);
+				}
+				else if (numClck == 2){
+					message="First I'll multiply the number by 2";
+					alert(message);
+					currentnum*=2;
+
+
+				}
+				else if (numClck == 3){
+						message="Then I'll multiply the number by 5";
+					alert(message);
+					currentnum*=5;
+					
+
+				}
+				else if (numClck == 4){
+					message="Now I'll divide the number by your original number";
+					alert(message);
+					currentnum/=userPickedNum;
+					
+				}
+				else if (numClck == 5){
+					message="Lastly I'll subtract 7 from your number";
+					alert(message);
+					currentnum-=7;
+					
+					
+				}
+				else if (numClck == 6){
+				message="Your number is 3! Try again and I bet it'll be 3 again";
+					alert(message);
+					
+				}
+				else {
+					message = "Thanks for playing!";
+					setTimeout(function(){location.reload()},2000);
+				}
+				document.getElementById('messageToUser').setAttribute('placeholder', currentnum);
+				setTimeout(function(){document.getElementById('usersCurrentNum').innerHTML = currentNum},1000);
+			}
+			
+			function countClicks(){
+				numOfClicks++;
+				
+				mathTrick(numOfClicks);
+			}
+			
+		</script>
+	</body>
+</html>

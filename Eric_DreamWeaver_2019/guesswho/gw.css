@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+#alex{width:20%;
+float:left;}
+#anita{width:20%;
+float:left;}
+#peter{width:20%;
+float:left;}
+#eric{width:20%;
+float:left;}
+#charles{width:20%;
+float:left;}
+#sam{width:20%;
+float:left;}
+#joe{width:20%;
+float:left;}
+#maria{width:20%;
+float:left;}
+#philip{width:20%;
+float:left;}
+#richard{width:20%;
+float:left;}
+#susan{width:20%;
+float:left;}
+#max{width:20%;
+float:left;}
+#alfred{width:20%;
+float:left;}
+#robert{width:20%;
+float:left;}
+#frans{width:20%;
+float:left;}
+#claire{width:20%;
+float:left;}
+#paul{width:20%;
+float:left;}
+#bill{width:20%;
+float:left;}
+#david{width:20%;
+float:left;}
+#bernard{width:20%;
+float:left;}
+#george{width:20%;
+float:left;}
+#tom{width:20%;
+float:left;}
+#herman{width:20%;
+float:left;}
+#anne{width:20%;
+float:left;}
+#gw{width:20%;
+float:left;}
+.cen{width:100%;
+}
+html{background-color:#D4D4D4;}
+#tb0_col0{width: 25%}
+#tb0_col1{width: 50%}
+#tb0_col2{width: 25%;
+vertical-align: top;}
+#play{width:100%;
+}
+#reset{width:100%;
+position:relative;}

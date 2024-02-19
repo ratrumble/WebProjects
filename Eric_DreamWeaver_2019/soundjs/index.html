@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Bandpage</title>
+<link href="main.css" rel="stylesheet" type="text/css" />
+<script>
+function playSound1(){
+		 document.getElementById("audio").innerHTML="<embed src='sound/starfox.mp3' hidden='true' loop='false' />";}
+	function playSound2(){
+		 document.getElementById("audio").innerHTML="<embed src='sound/jigglypuff.mp3' hidden='true' loop='false' />";}
+	function playSound3(){
+		 document.getElementById("audio").innerHTML="<embed src='sound/overworld.mp3' hidden='true' loop='false' />";}
+	function playSound4(){
+		 document.getElementById("audio").innerHTML="<embed src='sound/femblem.mp3' hidden='true' loop='false' />";}
+	function playSound5(){
+		 document.getElementById("audio").innerHTML="<embed src='sound/temple.mp3' hidden='true' loop='false' />";}
+</script>
+</head>
+
+<body>
+<div id="sm"><img src="images/socm.png" alt="socialmedia"></div>
+	<center><div id="melee"><img src="images/melee2.png" alt="melee"></div></center>
+<div id="menu"><img src="images/menu.png" alt="menu" width="250" height="250"></div>
+	<div class="fl1"><center><div id="home"><p>Home</p></div></center><div id="space"></div><center><div id="about"><p>About</p></div></center></div>
+	<div class="fl2"><center><div id="music"><p>Our Music</p></div></center><div id="space2"></div><center><div id="contact"><p>Contact</p></div></center></div>
+	<div id="sub"><p>Subscribe to our Newsletter:</p>
+		<div id="square"></div></div><div id="bg">
+	<center><div class="flex"><div class="fox"><img src="images/fox.png" alt="char" width="300" onClick="playSound1()"></div>
+	<div class="jig"><img src="images/jigg.png" alt="char" width="300" onClick="playSound2()"></div>
+		<div class="mar"><img src="images/mario.png" alt="char" width="300" onClick="playSound3()"></div>
+		<div class="mart"><img src="images/marth.png" alt="char" width="300" onClick="playSound4()"></div>
+		<div class="lin"><img src="images/link.png" alt="char" width="220" onClick="playSound5()"></div></div>
+	</div></center>
+	<div id="audio"></div>
+</body>
+</html>
+

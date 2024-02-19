@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+.text{font-size:30px;
+}
+#images{width:100%;
+float:right;}
+#txt{float: left;
+width:50%;
+}
+body{background-image: linear-gradient(to bottom, green, #BFAFFF)}
+.images{width:50%;
+	float:right;
+}
+#para{width: 50%;
+float:left}
+#f{float: right;
+width:33%;
+	font-size:40px;
+background-image: url(rock.jpg);}
+#ro{float: left;
+width:33%;
+background-image: url(rock.jpg);
+font-size:40px;}
+#g{width:33%;
+background-image: url(rock.jpg);
+position:relative;
+	font-size:40px;
+}
+#nav{height:30px;}
+#pcon{width:100%;
+float:right;}
+.folders{width:50%;
+float:right;}
+.folders1{width:50%;
+float:left;}
